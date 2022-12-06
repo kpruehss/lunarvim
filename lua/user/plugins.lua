@@ -223,6 +223,7 @@ M.config = function()
     { "monaqa/dial.nvim" },
     { "is0n/jaq-nvim" },
     { "sindrets/diffview.nvim" },
+    { "petertriho/nvim-scrollbar" },
     { "christianchiarulli/telescope-tabs", branch = "chris" },
   }
 end
