@@ -225,6 +225,10 @@ M.config = function()
     { "sindrets/diffview.nvim" },
     { "petertriho/nvim-scrollbar" },
     { "christianchiarulli/telescope-tabs", branch = "chris" },
+    {
+      "0x100101/lab.nvim",
+      run = "cd js && npm ci",
+    },
   }
 end
 return M

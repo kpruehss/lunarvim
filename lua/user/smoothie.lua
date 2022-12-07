@@ -1,10 +1,10 @@
 vim.g.smoothie_hide_cursor = 1
 
 vim.cmd [[
-nnoremap <C-j> <cmd>call smoothie#do("\<C-D>zz") <CR>
-vnoremap <C-j> <cmd>call smoothie#do("\<C-D>zz") <CR>
-nnoremap <C-k> <cmd>call smoothie#do("\<C-U>zz") <CR>
-vnoremap <C-k> <cmd>call smoothie#do("\<C-U>zz") <CR>
+nnoremap <C-d> <cmd>call smoothie#do("\<C-D>zz") <CR>
+vnoremap <C-d> <cmd>call smoothie#do("\<C-D>zz") <CR>
+nnoremap <C-u> <cmd>call smoothie#do("\<C-U>zz") <CR>
+vnoremap <C-u> <cmd>call smoothie#do("\<C-U>zz") <CR>
 ]]
 
 vim.g.smoothie_remapped_commands = {

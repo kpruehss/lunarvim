@@ -9,6 +9,12 @@ lvim.builtin.which_key.mappings["t"] = {
   l = { "<cmd>Trouble loclist<cr>", "LocationList" },
   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Workspace Diagnostics" },
 }
+lvim.builtin.which_key.mappings["R"] = {
+  name = "+Runner",
+  r = { "<cmd>Lab code run<cr>", "Run code" },
+  s = { "<cmd>Lab code stop<cr>", "Stop code runner" },
+  p = { "<cmd>Lab code panel<cr>", "Open Code runner panel" },
+}
 lvim.builtin.which_key.mappings["T"] = {
   name = "+Tab",
   t = {

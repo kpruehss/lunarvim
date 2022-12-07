@@ -81,5 +81,5 @@ jaq_nvim.setup {
 local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 
-keymap("n", "<m-r>", ":silent only | Jaq<cr>", opts)
+keymap("n", "<C-A-r>", ":silent only | Jaq<cr>", opts)
 return M

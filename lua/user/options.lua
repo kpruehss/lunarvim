@@ -2,7 +2,7 @@
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "darkplus"
+lvim.colorscheme = "tokyonight-night"
 lvim.lsp.diagnostics.float.focusable = true
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
@@ -56,7 +56,7 @@ local options = {
   scrolloff = 0,
   sidescrolloff = 8,
   title = true,
-  -- colorcolumn = "80",
+  colorcolumn = "80",
   -- colorcolumn = "120",
 }
 
