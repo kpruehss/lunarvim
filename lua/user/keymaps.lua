@@ -8,8 +8,8 @@ lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 
 -- NORMAL
-keymap("n", "<C-d>", "<C-d>zz", opts)
-keymap("n", "<C-u>", "<C-u>zz", opts)
+-- keymap("n", "<C-d>", "<C-d>zz", opts)
+-- keymap("n", "<C-u>", "<C-u>zz", opts)
 keymap("n", "n", "nzz", opts)
 keymap("n", "N", "Nzz", opts)
 keymap("n", "*", "*zz", opts)
@@ -17,7 +17,6 @@ keymap("n", "#", "#zz", opts)
 keymap("n", "g*", "g*zz", opts)
 keymap("n", "g#", "g#zz", opts)
 keymap("n", "<F7>", "<cmd>TSHighlightCapturesUnderCursor<cr>", opts)
-keymap("n", "<C-z>", "<cmd>ZenMode<cr>", opts)
 keymap("n", "-", ":lua require'lir.float'.toggle()<cr>", opts)
 keymap("n", "gx", [[:silent execute '!$BROWSER ' . shellescape(expand('<cfile>'), 1)<CR>]], opts)
 keymap("n", "<m-v>", "<cmd>lua require('lsp_lines').toggle()<cr>", opts)
